@@ -1,0 +1,25 @@
+{
+  "name": "curso-api-rest",
+  "version": "1.0.0",
+  "description": "API RESTful",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cane21/api-rest.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cane21/api-rest/issues"
+  },
+  "homepage": "https://github.com/cane21/api-rest#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.5"
+  }
+}
