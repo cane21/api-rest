@@ -4,14 +4,14 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 
-const songssSchema = Schema({
+const songsSchema = Schema({
   name: String,
   number: String,
   duration: String,
   file: String,
   album {
     type: Schema.ObjectId,
-    ref: 'albums'
+    ref: 'album'
   }
 });
 

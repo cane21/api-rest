@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 
-const albumsSchema = Schema({
+const albumSchema = Schema({
   title: String,
   description: String,
   image: String,
@@ -16,4 +16,4 @@ const albumsSchema = Schema({
 });
 
 
-module.exports = mongoose.model('albums', albumsSchema);
+module.exports = mongoose.model('album', albumSchema);
